@@ -141,17 +141,17 @@ function App(){
 
   async function handlePsiquiatras(e){
   e.preventDefault();
-  const psiqui = "psiquiatra";
+  const psiqui = "Médico";
   loadProfissao(psiqui);
   }
   async function handlePsicologos(e){
     e.preventDefault();
-    const psico="psicólogo(a)";
+    const psico="Fonoaudiologia";
     loadProfissao(psico);
 }
   async function handlePersonal(e){
   e.preventDefault();
-  const perso="personal trainer";
+  const perso="Técnico de enfermagem";
   loadProfissao(perso);
 }
 
